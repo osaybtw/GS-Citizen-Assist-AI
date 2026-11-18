@@ -47,10 +47,15 @@ Resultados de `python calculos_energia.py`:
 - A regra do Fio B pode mudar (a Aneel adiou a votação de regulamentação em julho de 2026).
 - Dados de sol e preços variam por local e fornecedor. Confirme com orçamentos.
 
-## 6. Testes com usuários (preencher com os testes reais)
-| Situação testada | Comentário recebido (sem nomes) | Ajuste feito |
-|---|---|---|
-| (ex.: pergunta sobre LED) | | |
+## 6. Testes com usuários
+Em 18/11/2026 houve 3 sessões de uso e 18 atendimentos (dados em `data/historico.json`). Facilidade de uso: 4,0 de 5. Sem nomes nem dados pessoais.
+
+| Situação testada | Resultado registrado no histórico | Comentário recebido | Ajuste feito |
+|---|---|---|---|
+| Pergunta: "a bandeira é a mesma para todos os comércios?" | achou a orientação 1, não ajudou | [PREENCHER] | Acrescentadas palavras-chave à orientação 5, que passou a ser a resposta (11 pontos) |
+| Pergunta: "é possível utilizar os créditos gerados pela geração de energia solar para abater a conta de energia elétrica?" | achou a orientação 8 após 3 tentativas (277 s), ajudou | [PREENCHER] | Nenhum. A base não tem orientação sobre créditos de energia (melhoria futura) |
+| Categoria "Economia de energia", orientação 11 (LED) | lida em 101,8 s, ajudou | [PREENCHER] | Nenhum |
+| Categoria "Economia de energia", orientação 15 (onde se gasta mais energia) | lida em 37,2 s, ajudou | [PREENCHER] | Nenhum |
 
 ## 7. Referências
 Veja `FONTES.md` para a lista completa com as URLs.
